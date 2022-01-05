@@ -30,6 +30,16 @@ p {
   margin-top: 30px;
 }
 
+a {
+  color: black;
+}
+a:visited {
+  color: rgb(116, 55, 156);
+}
+a:hover {
+  color: rgb(255, 255, 255);
+}
+
 .divider {
   color: rgb(155, 95, 212);
   max-width: 80%;
@@ -50,4 +60,18 @@ form {
   border-radius: 5px;
   border-color: azure;
   padding: 10px, 10px, 10px, 10px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 30px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+
+.date::first-letter {
+  text-transform: capitalize;
 }
