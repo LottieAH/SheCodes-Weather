@@ -27,14 +27,14 @@ h3 {
 p {
   text-align: center;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 a {
-  color: black;
+  color: rgb(56, 20, 45);
 }
 a:visited {
-  color: rgb(116, 55, 156);
+  color: rgb(72, 25, 104);
 }
 a:hover {
   color: rgb(255, 255, 255);
@@ -67,6 +67,9 @@ form {
   left: 0;
   bottom: 30px;
   width: 100%;
+}
+
+.dateTime {
   color: white;
   text-align: center;
   font-size: 25px;
@@ -74,4 +77,10 @@ form {
 
 .date::first-letter {
   text-transform: capitalize;
+}
+
+.icon {
+  display: inline;
+  width: 60px;
+  height: auto;
 }

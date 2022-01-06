@@ -13,6 +13,11 @@
 
     <link rel="stylesheet" href="src/style.css" />
     <title>Lottie's Weather App</title>
+    <link
+      rel="icon"
+      type="icon"
+      href="http://openweathermap.org/img/wn/10d@2x.png"
+    />
   </head>
   <body>
     <div class="container">
@@ -35,27 +40,35 @@
     <h1 id="city"></h1>
     <div class="row">
       <div class="col-6">
-        <h2><span id="temperature"></span>°C | °F</h2>
+        <h2>
+          <img
+            class="icon"
+            src="http://openweathermap.org/img/wn/10d@2x.png"
+            alt="Clear"
+            id="icon"
+          /><span id="temperature"></span>°C | °F
+        </h2>
       </div>
       <div class="col-6">
         <ul>
           <li>Humidity: <span id="humidity"></span>%</li>
-          <li>Wind: <span id="wind"></span></li>
+          <li>Wind: <span id="wind"></span>km/h</li>
         </ul>
       </div>
     </div>
-    <p>
-      <a href="https://github.com/LottieAH/Accessible-Weather-App"
-        >Open-source code</a
-      >
-      by
-      <a href="https://www.linkedin.com/in/lottie-hanson-digital-marketing/"
-        >Lottie Hanson</a
-      >
-    </p>
-    <script src="src/app.js"></script>
     <div class="footer">
-      <p>Last updated: <span id="date"></span></p>
+      <p class="dateTime">Last updated: <span id="date"></span></p>
+      <p>
+        <a href="https://github.com/LottieAH/Accessible-Weather-App"
+          >Open-source code</a
+        >
+        by
+        <a href="https://www.linkedin.com/in/lottie-hanson-digital-marketing/"
+          >Lottie Hanson</a
+        >
+      </p>
     </div>
+
+    <script src="src/app.js"></script>
   </body>
 </html>
