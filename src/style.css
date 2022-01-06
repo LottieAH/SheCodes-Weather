@@ -52,6 +52,16 @@ form {
   max-width: 85%;
   margin: 0 auto;
   padding-top: 50px;
+  border: none;
+}
+
+input[type="search"] {
+  border: none;
+  border-bottom: 2px;
+}
+
+::-ms-clear {
+  display: none;
 }
 
 .inlineButton {
@@ -59,11 +69,12 @@ form {
   color: whitesmoke;
   border-radius: 5px;
   border-color: azure;
+  border: none;
   padding: 10px, 10px, 10px, 10px;
 }
 
 .footer {
-  position: fixed;
+  position: absolute;
   left: 0;
   bottom: 30px;
   width: 100%;
@@ -84,4 +95,9 @@ form {
   width: 60px;
   height: auto;
   margin-right: 0;
+}
+
+::-webkit-search-cancel-button,
+::-webkit-search-results-decoration {
+  display: none;
 }
