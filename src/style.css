@@ -17,6 +17,11 @@ h2 {
 li {
   list-style-type: none;
   text-align: left;
+  font-size: 15px;
+}
+
+li::first-letter {
+  text-transform: capitalize;
 }
 
 h3 {
@@ -27,17 +32,19 @@ h3 {
 p {
   text-align: center;
   margin: auto;
-  margin-top: 15px;
+  margin-top: 10px;
+  font-size: 15px;
 }
 
 a {
-  color: rgb(56, 20, 45);
+  color: rgb(0, 0, 0);
 }
 a:visited {
-  color: rgb(72, 25, 104);
+  color: rgb(0, 0, 0);
 }
 a:hover {
-  color: rgb(255, 255, 255);
+  color: rgb(148, 63, 182);
+  text-decoration: none;
 }
 
 .divider {
@@ -73,6 +80,11 @@ input[type="search"] {
   padding: 10px, 10px, 10px, 10px;
 }
 
+.units {
+  color: rgb(51, 48, 49);
+  font-size: 20px;
+}
+
 .footer {
   position: absolute;
   left: 0;
@@ -83,7 +95,7 @@ input[type="search"] {
 .dateTime {
   color: white;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .date::first-letter {
